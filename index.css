@@ -1,0 +1,40 @@
+#bodyDiv {
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(to right, #8d67b3, #55bcc0);  */
+    /* background-color: white; */
+    /* color: #333; */
+      background-image:url("https://img.freepik.com/free-photo/decorated-wedding-restaurant_8353-9287.jpg?t=st=1737573804~exp=1737577404~hmac=822c953351e39217354199ab2c6ccee2fa6ba020f60d15ac778428d60e731f68&w=996");   
+    margin: 0;
+     display: flex;
+    justify-content: center;
+    /* align-items: center;  */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+#navDiv{
+display: grid;
+grid-row: inherit;
+width: 50%;
+height: 45vh;
+justify-content: center;
+align-items: center;
+/* background-color:red; */
+border-radius: 0 2px 0 2px 2px;
+margin-top: 14%;
+border-radius: 1.5rem;
+/* border-color: black; */
+border-style: outset;
+border-color:black ;
+background-color:rgb(hsl(0, 37%, 97%), rgb(235, 235, 235), rgb(230, 230, 238));
+background-color:rgba(255, 255, 255, 0.342);
+padding-top:120px;
+}
+
+.p-text{
+    text-align: center;
+    text-align: center;
+}
