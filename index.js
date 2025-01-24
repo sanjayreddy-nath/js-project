@@ -11,7 +11,7 @@ let get=document.getElementById("exampleModal");
 // Load modal content dynamically
 document.addEventListener("DOMContentLoaded", function () {
     // Load the Signup Modal
-    fetch("../signup/signup.html")
+    fetch("../signup/index.html")
         .then(response => response.text())
         .then(html => {
             document.getElementById("modalContainer").insertAdjacentHTML("beforeend", html);
