@@ -267,7 +267,10 @@ document.getElementById("loginbtn").addEventListener("click", async (event) => {
   });
 
 
-
+  document.getElementById("skip").addEventListener("click", async (event) => {
+    event.preventDefault();
+    location.href="./dashboard/dashboard.html"
+  })
 
 
 
