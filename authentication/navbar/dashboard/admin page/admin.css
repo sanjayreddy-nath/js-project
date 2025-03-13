@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -182,3 +182,61 @@ button:hover {
     color: #333;
   }
    */
+@media (max-width: 400px) {
+    .admin-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .logo1 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background: black;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .admin-main {
+        padding: 10px;
+    }
+
+    .events-table th,
+    .events-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .admin-footer{
+        padding: 8px;
+        font-size: 12px;
+        width:160vw;
+    }
+}
