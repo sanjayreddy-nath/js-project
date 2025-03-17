@@ -574,7 +574,7 @@ ul p {
 
 @media (max-width: 400px) {
   body {
-    font-size: 14px;
+    /* font-size: 14px; */
     overflow-x: hidden; /* Prevent horizontal scrolling */
     margin: 0; /* Remove any default margin */
     padding: 0; /* Remove default padding */
@@ -605,14 +605,18 @@ ul p {
     font-size: 1.4rem;
     margin: 0.5rem 0;
   }
-
+.home{
+  margin-top: 25%;
+}
   .home .content h3 {
     font-size: 2rem;
     padding: 0 1rem;
     word-wrap: break-word; /* Break long words */
     width: 100%; /* Ensure heading is responsive */
   }
-
+  .home .content h3 a{
+    font-size: 6rem;
+  }
   .service-cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -625,8 +629,9 @@ ul p {
   /* height: 550px; */
   display: flex;
   flex-direction: column;
-  margin-right: 35%;
-  width: 90%;
+  /* margin-right: 35%; */
+  width: 100%;
+  /* width: 90%; */
   
 
 }
@@ -638,23 +643,21 @@ ul p {
   justify-content: space-evenly;
   align-items: center;
   height: 120vh;
-  width:100% ;
+  /* width:100% ; */
   font-size: 1.2rem;
 }
 
 
 #about-img{
-/* width: 65%; */
-width: 80%;
-height: auto;
-max-width: 80%; /* Prevent overflow from images */
+width: 200%;
+height: 80%;
+ max-width: 80%;  
 margin-right: 15%;
-/* justify-content: center;
-  justify-content: space-evenly;
-  align-items: center; */
-/* margin-right: 100%; */
 }
-
+ /* .about-img{
+  width: 10px;
+  height: 10px;
+} */
 
 .services{
   margin-right: 10%;
@@ -740,6 +743,7 @@ padding-right: 10%;
 @media (min-width: 401px) and (max-width: 768px) {
   body {
      font-size: 16px;
+     width: 100%;
     /* display: flex;
     flex-direction: row;
     justify-content: center;
@@ -759,18 +763,37 @@ padding-right: 10%;
   .home .content h3 {
     font-size: 2.4rem;
   }
+  .home{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+
+  }
+.services>p{
+  margin-left: 40%;
+}
+.services>h2{
+  margin-left: 45%;
+}
+
 
   .service-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+    margin-left: 25%;
   }
-
+ 
   .about-main{
     height:55vh;
-    width: 100%;
+   width: 110vw;
     display: flex;
     flex-direction: column;
+margin-left: 20%;
+
+  }
+  .about>h2{
+    margin-left: 40%; 
   }
   .about-img{
     width:55vw;
@@ -783,21 +806,26 @@ padding-right: 10%;
 video {
   padding-left: 22%;
 }
+.Gallery{
+  margin-left: 40%;
+}
 
    .gallery-desc, .service-desc {
     font-size: 1.4rem;
     margin-left: 15%; 
   }
-
+.gallery-images{
+margin-left: -25%;
+}
   .gallery-images img {
-    width: 55%;
+    width: 190px;
     margin: 1%;
-    height: fit-content;
+    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
-    margin-left: 55%;
+   
   }
 
   form input, form select, form button {
@@ -808,26 +836,40 @@ video {
     justify-content: center;
    
   }
+  .Form{
+    width: 100%;
+    margin-left: 28%;
+  }
 .event-form{
   align-items: center;
   justify-content: center;
 }
   .form-container {
     padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
     
+  }
+  .low{
+width: 150vw;
   }
 
   .low1 {
     flex-direction: row; /* Change layout to row */
     justify-content: space-evenly; 
     justify-content: center;
-    align-items: center;/* Space between footer sections */
+    align-items: center;
+    width: 100%;/* Space between footer sections */
+  }
+  .low1{
+    width: 160vw;
   }
 
   .foot-1, .foot-2, .foot-3, .foot-4 {
     width: 23%; /* Allow sections to take up less width */
     margin-top: 0.5rem; /* Reduce margin */
     text-align: left; /* Align text to the left */
+    width: 100%;
   }
 
   ul p {
